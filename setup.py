@@ -24,6 +24,7 @@ setuptools.setup(
         'Topic :: Software Development :: Embedded Systems',
     ],
     python_requires='>=3.6',
+    install_requires=["spidev"],
     keywords="temperature thermocouple max31855",
 
 )
