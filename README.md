@@ -1,4 +1,4 @@
-# max31855
+# pyMAX31855
 
 This module is a Python3 based interface to a max31855 with k-type thermocouple.
 

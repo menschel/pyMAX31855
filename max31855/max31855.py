@@ -7,7 +7,7 @@
 #the IC is SPI read only, so we need spidev
 import spidev
 
-from k_type_lin import voltage2temp,temp2voltage
+from max31855.k_type_lin import voltage2temp,temp2voltage
 
 
 #we use ctypes struct to represent the input data from spi
