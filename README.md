@@ -2,14 +2,14 @@
 
 This module is a Python3 based interface to a max31855 with k-type thermocouple.
 
-It was tested on a raspberry pi 0 with (adafruit breakout board)[https://www.adafruit.com/product/269].
+It was tested on a raspberry pi 0 with [adafruit breakout board](https://www.adafruit.com/product/269).
 
 The python module from adafruit was apparently broken.
 
 Uses NIST correction for k-type thermocouple.
 
 # A simple usage example
-Connect the max31855 to (spi0.0)[https://pinout.xyz/pinout/spi#]
+Connect the max31855 to [spi0.0](https://pinout.xyz/pinout/spi#)
 and run this example code.
 ```
 from pprint import pprint as pp
